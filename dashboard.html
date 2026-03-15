@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Service Hub Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Service Hub</h1>
+
+<h2>Add Your Service</h2>
+
+<input type="text" id="serviceName" placeholder="Service Name">
+<br><br>
+
+<input type="text" id="providerName" placeholder="Provider Name">
+<br><br>
+
+<input type="text" id="location" placeholder="Location">
+<br><br>
+
+<button onclick="addService()">Add Service</button>
+
+<h2>Find Services</h2>
+
+<input type="text" id="search" placeholder="Search services..." onkeyup="searchService()">
+
+<div class="services" id="serviceList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
